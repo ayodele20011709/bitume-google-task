@@ -6,7 +6,7 @@ const Newsfeed = ({ category, searchQuery }) => {
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState("");
 
-  const API_KEY = "pub_846648c643cf424683d6272e2ce414fd";
+  const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 
   useEffect(() => {
     const loadNews = async () => {

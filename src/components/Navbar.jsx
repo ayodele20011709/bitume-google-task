@@ -29,7 +29,7 @@ const Navbar = () => {
         <h1 className="text-teal-500 text-2xl font-semibold">News</h1>
       </div>
 
-      <div className="flex items-center gap-4 text-2xl md:text-2xl flex-wrap">
+      <div className="flex items-center gap-4 text-xl md:text-xl flex-wrap">
         {categories.map((cat) => (
           <Link
             key={cat}
