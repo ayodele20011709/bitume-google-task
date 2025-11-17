@@ -135,7 +135,6 @@ API integration
 
 Mobile responsiveness
 
-👨🏽‍💻 Author
+ Author:
 
-Ayodele / Lawal Ganiyat
-
+ Lawal Ganiyat Kofoworola
